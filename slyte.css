@@ -1,0 +1,58 @@
+@import url ('https://fonts.googleais.com/css?family=open+sans:250,300,400,500,600,700,800,&dispay=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 'open sans',sans-serif;
+}
+body
+{
+    background: #f0f0f0;
+}
+.body
+{
+    width: 285px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    background-color: #f0f0f0;
+}
+.x > button
+{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    flex: 1;
+    border-radius: 25%;
+    margin: 10px 5px 10px 5px;
+}
+.y
+{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10%;
+    background-image: url(anjel.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.n 
+{
+    width: 100%;
+    height: 60%;
+    background: tomato;
+    margin-top: 10px;
+    border: none;
+    font-size: 40px;
+}
+.n:hover
+{
+    background: #000;
+    color: #fff;
+}
